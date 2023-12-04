@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ysabeau Office", sans-serif;
+}
+
+.container {
+  background-color: #58823f;
+  min-width: 100%;
+}
+
+.header {
+  display:flex
+  flex-direction: column;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  width: 500px;
+  height: auto;
+  background-color: #759362;
+  border: 2px dashed #423423;
+  box-sizing: border-box;
+  border-radius:10px
+  
+}
+
+.header > img {
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+.header:hover {
+    transform:scale(1.05);
+}
+
+
+.container2 {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #759362 ;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed #423423 ;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu h3 {
+    display:
+}
+
+.menurow2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: auto;
+    float: center;
+    
+}
+
+.menurow1 h2{
+    display: block;
+    float: center;
+}
+
+.menurow1 {
+    padding-bottom: 20px;
+}
+
+.menu1 {
+    width: fit-content;
+    height: fit-content;
+    background-color: #778A6B;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.container2:hover{
+    transform:scale(1.05);
+}
+
+.menu {
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.kontak {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #759362 ;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed #423423 ;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.kontak:hover{
+    transform:scale(1.05);
+}
+
+
+
+.portofolioJudul {
+    margin-bottom: 30px;
+}
+.portofolio1{
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.perkenalan {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #759362 ;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed #423423 ;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.perkenalan:hover{
+    transform:scale(1.05);
+}
+
+.footer{
+    box-sizing: border-box;
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.footer:hover{
+        transform:scale(1.05);
+    }
